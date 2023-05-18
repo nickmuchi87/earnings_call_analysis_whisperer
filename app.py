@@ -57,7 +57,8 @@ if "sen_df" not in st.session_state:
     st.session_state['sen_df'] = ''
         
 url_input = st.text_input(
-        label="Enter YouTube URL, example below is McDonalds Earnings Call Q1 2023")
+        label="Enter YouTube URL, example below is McDonalds Earnings Call Q1 2023",
+        value = "https://www.youtube.com/watch?v=4p6o5kkZYyA")
 
 st.session_state['url'] = url_input
         
